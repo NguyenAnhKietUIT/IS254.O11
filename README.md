@@ -44,6 +44,7 @@ streamlit run app.py
 - `Show Recommendation`: Click the button to display recommended items based on the selected model and category.
 
 ## Code Explanation
+![Flow](images/DSS_Flow_Code-en.drawio.png)
 
 The main application logic is in the `app.py` file. It uses Streamlit for the web interface, Selenium for web scraping, and Pickle for loading pre-trained recommendation models.
 
@@ -65,5 +66,6 @@ The main application logic is in the `app.py` file. It uses Streamlit for the we
 
 - [Streamlit](https://streamlit.io/)
 - [Selenium](https://www.selenium.dev/)
+- [wikipedia-data-science](https://github.com/WillKoehrsen/wikipedia-data-science)
 
 Feel free to explore and enhance the project as needed!
